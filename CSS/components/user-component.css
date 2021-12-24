@@ -37,10 +37,43 @@
   border-radius: 25px;
 }
 
+.user-component__avatar--xxs {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  justify-content: space-around;
+}
+
 .user-component__title--not-bold {
   font-weight: 400px;
 }
 
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.chat-notification {
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.user-component__subtitle--chats {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.user-component__chats {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
 }

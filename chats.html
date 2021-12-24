@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends – Kokoa Clone</title>
+    <title>Chats – Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,53 +24,48 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
     </header>
-
-
-    <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i> 
-        Friends' Name Display  <i class="fas fa-chevron-right fa-xs"></i> 
-    </a>
+  
 
 <main class="friends-screen">
-    <div class="user-component">
+  
+    <div class="user-component__chats">
         <div class="user-component__column">
             <img 
-            src="screenshots/avatar.jpg" 
-            class="user-component__avatar user-component__avatar--xl"/>
+            src="screenshots/evan.jpg" 
+            class="user-component__avatar user-component__avatar--sm"/>
             <div class="user-component__text">
-                <h4 class="user-component__title">Jadu</h4>
-                <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+                <h4 class="user-component__title--not-bold">Evan</h4>
+                <h6 class="user-component__subtitle--chats">내일 시간 돼?</h6>
             </div>
         </div>
-    </div>
-    <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-            <span>Channel</span>
-            <i class=" fas fa-chevron-up fa-sm"></i>
+        <div class="user-component__column">
+            <span class="chat-notification">2</span>
         </div>
     </div>
-    
-        <div class="user-component">
+        <div class="user-component__chats">
             <div class="user-component__column">
                 <img 
-                src="screenshots/sai.jpg" 
-                class="user-component__avatar user-component__avatar--sm"/>
+                src="screenshots/evan.jpg" 
+                class="user-component__avatar user-component__avatar--xxs"/>
+                <img
+                src="screenshots/jenny.jpg"
+                class="user-component__avatar user-component__avatar--xxs">
                 <div class="user-component__text">
-                    <h4 class="user-component__title--not-bold">Channel+</h4>
+                    <h4 class="user-component__title--not-bold">Jenny, Evan (3)</h4>
+                    <h6 class="user-component__subtitle--chats">야 오늘 무조건 칼퇴임!!</h6>
                 </div>
                 <div class="user-component__column">
             </div>
         </div>
             <div class="user-component__column">
-                <span>2</span>
-                <i class="fas fa-chevron-right fa-xs"></i>
+                <span class="chat-notification">5</span>
             </div>
         </div>
     </div>
@@ -78,7 +73,7 @@
 
     
     
-     <nav class="nav">
+    <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
