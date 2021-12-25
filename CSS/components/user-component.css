@@ -38,10 +38,9 @@
 }
 
 .user-component__avatar--xxs {
-  height: 30px;
-  width: 30px;
-  border-radius: 15px;
-  justify-content: space-around;
+  height: 36px;
+  width: 36px;
+  border-radius: 16px;
 }
 
 .user-component__title--not-bold {
@@ -63,6 +62,7 @@
   color: white;
   font-size: 13px;
   font-weight: 600;
+  margin-top: 3px;
 }
 
 .user-component__subtitle--chats {
@@ -76,4 +76,29 @@
   display: flex;
   align-items: center;
   padding-bottom: 10px;
+}
+
+.user-component__avatar--evan {
+  position: absolute;
+}
+
+.user-component__avatar--jenny {
+  position: relative;
+  left: 25px;
+  top: 15px;
+}
+
+.user-component__text--group {
+  padding-left: 20px;
+}
+
+.user-component__column--time {
+  font-size: 12px;
+}
+
+.pin {
+  position: relative;
+  bottom: 10px;
+  right: 32px;
+  color: rgb(189, 189, 189);
 }
