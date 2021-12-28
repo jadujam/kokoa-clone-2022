@@ -18,12 +18,13 @@
 .user-component__title {
   font-weight: 600px;
   font-size: 22px;
+  color: black;
 }
 
 .user-component__subtitle {
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .user-component__avatat--xl {
@@ -53,16 +54,17 @@
 
 .chat-notification {
   background-color: tomato;
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 600;
   margin-top: 3px;
+  margin-left: 10px;
 }
 
 .user-component__subtitle--chats {
