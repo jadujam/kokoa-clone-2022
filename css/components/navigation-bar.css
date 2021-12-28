@@ -32,3 +32,19 @@
   left: 17px;
   bottom: 15px;
 }
+
+.nav__link--friends {
+  color: var(--yellow);
+}
+
+.nav__btn--chats i {
+  color: var(--yellow);
+}
+
+.nav__link--find {
+  color: var(--yellow);
+}
+
+.nav__link--more {
+  color: var(--yellow);
+}
