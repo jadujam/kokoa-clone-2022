@@ -83,6 +83,7 @@
   border-top-left-radius: 15px;
   margin-right: 0px;
   margin-left: 5px;
+  color: white;
 }
 
 .message-row--own .message__info {
@@ -143,6 +144,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  color: white;
 }
 
 .reply__column button i {
