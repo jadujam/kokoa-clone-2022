@@ -13,8 +13,11 @@
 
 .icon-row__icon i {
   font-size: 35px;
+  opacity: 0.3;
 }
 
 .icon-row__icon span {
   margin-top: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
 }
