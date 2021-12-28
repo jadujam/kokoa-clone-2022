@@ -29,9 +29,6 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.user-component__title--friends {
-}
-
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
