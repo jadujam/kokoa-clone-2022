@@ -93,6 +93,7 @@
 .message-row--repeat .message-row__content {
   margin-left: 55px;
   margin-top: -2px;
+  margin-bottom: 10px;
 }
 
 .reply {
